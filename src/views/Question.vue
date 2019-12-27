@@ -1,9 +1,17 @@
 <template>
-  <section class="question-1">
-    <h1>Pregunta {{ number }} / {{ totalQuestions }}</h1>
-    <p>{{ questionText }}</p>
-    <AnswerComponent v-for="answer in answers" :answer="answer" :key="answer.type" @click.native="goToNextQuestion(answer)"></AnswerComponent>
-    <Button label="Volver" @click.native="goBack"/>
+  <section class="question">
+    <div class="question__card">
+      <div class="question__card__header">
+        <h1>Pregunta {{ number }} / {{ totalQuestions }}</h1>
+      </div>
+      <div class="question__card__body">
+        <p>{{ questionText }}</p>
+        <AnswerComponent v-for="answer in answers" :answer="answer" :key="answer.type" @click.native="goToNextQuestion(answer)"></AnswerComponent>
+      </div>
+      <div class="question__card__footer">
+        <Button label="Volver" @click.native="goBack"/>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -92,3 +100,20 @@ export default class Question extends Vue {
   }
 }
 </script>
+
+<style scoped lang="scss">
+.question {
+  &__card {
+    max-width: 100%;
+    background-color: var(--white);
+    border-radius: var(--radius-8);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+    padding: 16px;
+
+    &__header {
+      text-align: center;
+    }
+  }
+}
+</style>

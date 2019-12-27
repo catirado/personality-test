@@ -12,6 +12,26 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+:root {
+  /* Colors */
+  --yellow: #ffc72c;
+  --yellow-dark: #febc29;
+  --yellow-light: #ffcd42;
+  --white: #fff;
+
+  /* Shadows */
+  --shadow: 0 3px 6px 0 rgba(0, 0, 0, .1);
+
+  /* Sizes */
+  --radius-8: 8px;
+
+  /* Font sizes */
+  --letter-s: 1rem;
+  --letter-m: 1.2rem;
+  --letter-l: 1.4rem;
+  --letter-xl: 2rem;
+}
+
 html
 {
   margin: 0 auto;
@@ -19,14 +39,13 @@ html
 }
 
 body {
-  background: #A7DBD8;
+  background: #3A4750;
 }
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   margin-top: 60px;
 }
 </style>
