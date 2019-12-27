@@ -1,6 +1,6 @@
 <template>
   <section class="credits">
-    <h1>Creditos</h1>
+    <h1>Créditos</h1>
     <p>Alicia Marin Solano</p>
   </section>
 </template>
