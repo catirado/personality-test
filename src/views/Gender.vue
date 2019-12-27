@@ -56,6 +56,7 @@ export default class Gender extends Vue {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2rem;
         margin-top: 10px;
+        cursor: pointer;
     }
   }
 }

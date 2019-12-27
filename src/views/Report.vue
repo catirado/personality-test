@@ -1,9 +1,18 @@
 <template>
   <section class="question-1">
-    <h1>Report</h1>
-    <Chart :chartdata="chartdata" :options="chartptions"/>
-    <h2>Información</h2>
-    <p>{{ personalityInfo }}</p>
+    <Card>
+      <div slot="header">
+        <h1>Report</h1>
+      </div>
+      <div slot="body">
+        <Chart :chartdata="chartdata" :options="chartptions"/>
+        <h2>Información</h2>
+        <p>{{ personalityInfo }}</p>
+      </div>
+      <div slot="footer">
+        <Button label="Volver" @click.native="goBack"/>
+      </div>
+    </Card>
   </section>
 </template>
 
@@ -13,13 +22,22 @@ import Chart from '@/components/report/ReportChart.vue';
 import * as resultsHelper from '@/helpers/resultsHelper';
 import { ReportResult } from '@/models/report';
 import { AnswerResponse } from '@/models/answer-response';
+import router from '@/router';
+import Card from '@/components/Card.vue';
+import Button from '@/components/Button.vue';
 
 @Component({
   components: {
     Chart,
+    Card,
+    Button,
   },
 })
 export default class Report extends Vue {
+
+  public goBack(): void {
+    router.back();
+  }
 
   get answers() {
     return this.$store.getters.answers;

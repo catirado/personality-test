@@ -1,17 +1,17 @@
 <template>
   <section class="question">
-    <div class="question__card">
-      <div class="question__card__header">
+    <Card>
+      <div slot="header">
         <h1>Pregunta {{ number }} / {{ totalQuestions }}</h1>
       </div>
-      <div class="question__card__body">
+      <div slot="body">
         <p>{{ questionText }}</p>
         <AnswerComponent v-for="answer in answers" :answer="answer" :key="answer.type" @click.native="goToNextQuestion(answer)"></AnswerComponent>
       </div>
-      <div class="question__card__footer">
+      <div slot="footer">
         <Button label="Volver" @click.native="goBack"/>
       </div>
-    </div>
+    </Card>
   </section>
 </template>
 
@@ -21,12 +21,14 @@ import AnswerComponent from '@/components/questions/Answer.vue';
 import router, { Routes } from '@/router';
 import { Answer } from '@/models/answer';
 import Button from '@/components/Button.vue';
+import Card from '@/components/Card.vue';
 import { Question as QuestionModel, QuestionAnswer } from '@/models/question';
 
 @Component({
   components: {
     AnswerComponent,
     Button,
+    Card,
   },
   data() {
     return {
@@ -103,17 +105,5 @@ export default class Question extends Vue {
 
 <style scoped lang="scss">
 .question {
-  &__card {
-    max-width: 100%;
-    background-color: var(--white);
-    border-radius: var(--radius-8);
-    margin-bottom: 20px;
-    box-shadow: var(--shadow);
-    padding: 16px;
-
-    &__header {
-      text-align: center;
-    }
-  }
 }
 </style>

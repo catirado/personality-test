@@ -1,15 +1,24 @@
 <template>
   <section class="results">
-    <h1>Resultado</h1>
-    <p>Tu personalidad es {{ personality }}</p>
-    <Button label="Ver informe" @click.native="goToReport"/>
-    <Button label="Volver a intentar" @click.native="goToHome"/>
+    <Card>
+      <div slot="header">
+        <h1>Resultado</h1>
+      </div>
+      <div slot="body">
+        <p>Tu personalidad es {{ personality }}</p>
+        <Button label="Ver informe" @click.native="goToReport"/>
+      </div>
+      <div slot="footer">
+        <Button label="Volver a intentar" @click.native="goToHome"/>
+      </div>
+    </Card>
   </section>
 </template>
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
 import Button from '@/components/Button.vue';
+import Card from '@/components/Card.vue';
 import router, { Routes } from '@/router';
 import * as resultsHelper from '@/helpers/resultsHelper';
 import { AnswerResponse } from '@/models/answer-response';
@@ -17,6 +26,7 @@ import { AnswerResponse } from '@/models/answer-response';
 @Component({
   components: {
     Button,
+    Card,
   },
 })
 export default class Results extends Vue {

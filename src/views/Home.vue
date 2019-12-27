@@ -31,6 +31,8 @@ export default class Home extends Vue {
 
 <style scoped lang="scss">
 .home {
+  text-align: center;
+
   &__logo {
     width: 320px;
   }
