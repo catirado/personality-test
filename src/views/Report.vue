@@ -53,7 +53,7 @@ export default class Report extends Vue {
           this.percentageByOption(report, AnswerResponse.Assertive),
           this.percentageByOption(report, AnswerResponse.Aggresive),
         ],
-        backgroundColor: ['#f87979', '#fff000', '#f82228'],
+        backgroundColor: ['#3A4750', '#838689', '#EBE3AA'],
       }],
       labels: [
         'Pasivo',

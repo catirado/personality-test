@@ -15,8 +15,7 @@ export default class App extends Vue {}
 :root {
   /* Colors */
   --yellow: #ffc72c;
-  --yellow-dark: #febc29;
-  --yellow-light: #ffcd42;
+  --grey: #3A4750;
   --white: #fff;
 
   /* Shadows */
@@ -39,7 +38,7 @@ html
 }
 
 body {
-  background: #3A4750;
+  background: var(--grey);
 }
 
 #app {
