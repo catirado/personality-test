@@ -9,7 +9,6 @@
       <div v-if="hasFooterSlot">
         <slot name="footer"></slot>
       </div>
-      <cl-spinner-by-component :is-loading="isLoading"></cl-spinner-by-component>
   </div>
 </template>
 
@@ -44,6 +43,10 @@ export default class Card extends Vue {
 
     &__header {
         text-align: left;
+    }
+
+    &__footer {
+      margin-top: 8px;
     }
 }
 </style>

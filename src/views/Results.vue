@@ -5,10 +5,12 @@
         <h1>Resultado</h1>
       </div>
       <div slot="body">
-        <p>Tu personalidad es {{ personality }}</p>
-        <Button label="Ver informe" @click.native="goToReport"/>
+        <p>Tu estilo de comunicación es {{ personality }}</p>
+        <font-awesome-icon :icon="['far', personalityIcon]" />
+        <p>{{ personalityInfo}}</p>
       </div>
       <div slot="footer">
+        <Button label="Ver informe" @click.native="goToReport"/>
         <Button label="Volver a intentar" @click.native="goToHome"/>
       </div>
     </Card>
@@ -39,6 +41,32 @@ export default class Results extends Vue {
   }
 
   get personality() {
+    const personality = resultsHelper.getPersonality(this.$store.getters.answers) as AnswerResponse;
+    if (personality == AnswerResponse.Pasive) {
+      return 'Pasivo';
+    } else if (personality == AnswerResponse.Assertive) {
+      return 'Asertivo';
+    } else if (personality == AnswerResponse.Aggresive) {
+      return 'Agresivo';
+    } else {
+      return 'Desconocido';
+    }
+  }
+
+  get personalityIcon() {
+    const personality = resultsHelper.getPersonality(this.$store.getters.answers) as AnswerResponse;
+    if (personality == AnswerResponse.Pasive) {
+      return 'meh';
+    } else if (personality == AnswerResponse.Assertive) {
+      return 'smile';
+    } else if (personality == AnswerResponse.Aggresive) {
+      return 'angry';
+    } else {
+      return 'question';
+    }
+  }
+
+  get personalityInfo() {
     const personality = resultsHelper.getPersonality(this.$store.getters.answers) as AnswerResponse;
     if (personality == AnswerResponse.Pasive) {
       return 'Pasiva';

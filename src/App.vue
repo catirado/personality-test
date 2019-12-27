@@ -31,14 +31,12 @@ export default class App extends Vue {}
   --letter-xl: 2rem;
 }
 
+@import "@/style/styles.scss";
+
 html
 {
   margin: 0 auto;
   max-width: 480px;
-}
-
-body {
-  background: var(--grey);
 }
 
 #app {

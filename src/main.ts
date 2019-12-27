@@ -3,12 +3,13 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faMale, faFemale } from '@fortawesome/free-solid-svg-icons';
+import { faAngry, faSmile, faMeh } from '@fortawesome/free-regular-svg-icons';
+import { faMale, faFemale, faQuestion} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faMale, faFemale);
+library.add(faMale, faFemale, faAngry, faSmile, faMeh, faQuestion);
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
