@@ -1,29 +1,44 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import VueRouter, { RouteConfig } from 'vue-router';
 import Home from '../views/Home.vue';
+import Gender from '../views/Gender.vue';
+import Results from '../views/Results.vue';
+import Report from '../views/Report.vue';
+import Credits from '../views/Credits.vue';
+import Question from '../views/Question.vue';
 
 Vue.use(VueRouter);
 
+export enum Routes {
+  Home = 'home',
+  Credits = 'credits',
+  Gender = 'gender',
+  Question = 'question',
+  Results = 'results',
+  Report = 'report',
+}
+
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: Home,
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
-  },
+  route('/', Routes.Home, Home),
+  route('/gender', Routes.Gender, Gender),
+  route('/questions/:question', Routes.Question, Question, undefined, undefined, true),
+  route('/results', Routes.Results, Results, undefined, undefined, true),
+  route('/report', Routes.Report, Report, undefined, undefined, true),
+  route('/credits', Routes.Credits, Credits),
 ];
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
   routes,
 });
+
+function route(
+  path: string,
+  name: string,
+  component?: any,
+  children?: RouteConfig[],
+  meta?: any,
+  props?: any): RouteConfig {
+  return { path, name, component, children, meta, props };
+}
 
 export default router;

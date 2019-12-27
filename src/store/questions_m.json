@@ -1,0 +1,104 @@
+[
+    {
+       "text":"Estás montada en el metro, entra una persona y te empuja fuertemente, quedándote atrapada entre esa persona y la pared. Te está empujando muy fuerte, y no entiendes por qué porque tú piensas que tiene sitio más adelante.",
+       "answers":[
+          {
+             "type":1,
+             "text":"Te quedas callada y no haces ni dices nada, total el viaje dura solo 20 minutos."
+          },
+          {
+             "type":2,
+             "text":"Le empujas tú también a él y si no hace caso gritas en voz alta, “¡Qué maleducada es la gente!” para que se dé por aludido."
+          },
+          {
+             "type":3,
+             "text":"Le dices “perdona, me estás empujando, si no te importe te pediría que te apartases un poco”."
+          }
+       ]
+    },
+    {
+       "text":"Has quedado con una amiga pero llevas más de media hora esperando y no llega. La has llamado y mandado mensajes pero no da señales de vida. Cuando tu amiga aparece…",
+       "answers":[
+          {
+             "type":1,
+             "text":"Repuesta 1"
+          },
+          {
+             "type":2,
+             "text":"Resputa 2"
+          },
+          {
+             "type":3,
+             "text":"Respusta 3"
+          }
+       ]
+    },
+    {
+       "text":"Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
+       "answers":[
+          {
+             "type":1,
+             "text":"Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
+          },
+          {
+             "type":2,
+             "text":"Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
+          },
+          {
+             "type":3,
+             "text":"Te enfadas muchísimo, ¡Con la de rato que llevas esperando, son unos incompetentes! Llamas al camarero a gritos y le dices que no hay derecho, que o te traen el plato correcto y rápido o vas a poner una reclamación."
+          }
+       ]
+    },
+    {
+       "text":"Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
+       "answers":[
+          {
+             "type":1,
+             "text":"Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
+          },
+          {
+             "type":2,
+             "text":"Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
+          },
+          {
+             "type":3,
+             "text":"Te enfadas muchísimo, ¡Con la de rato que llevas esperando, son unos incompetentes! Llamas al camarero a gritos y le dices que no hay derecho, que o te traen el plato correcto y rápido o vas a poner una reclamación."
+          }
+       ]
+    },
+    {
+       "text":"Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
+       "answers":[
+          {
+             "type":1,
+             "text":"Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
+          },
+          {
+             "type":2,
+             "text":"Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
+          },
+          {
+             "type":3,
+             "text":"Te enfadas muchísimo, ¡Con la de rato que llevas esperando, son unos incompetentes! Llamas al camarero a gritos y le dices que no hay derecho, que o te traen el plato correcto y rápido o vas a poner una reclamación."
+          }
+       ]
+    },
+    {
+       "text":"Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
+       "answers":[
+          {
+             "type":1,
+             "text":"Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
+          },
+          {
+             "type":2,
+             "text":"Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
+          },
+          {
+             "type":3,
+             "text":"Te enfadas muchísimo, ¡Con la de rato que llevas esperando, son unos incompetentes! Llamas al camarero a gritos y le dices que no hay derecho, que o te traen el plato correcto y rápido o vas a poner una reclamación."
+          }
+       ]
+    }
+ ]
