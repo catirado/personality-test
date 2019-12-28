@@ -6,7 +6,7 @@
       <div class="card__body">
         <slot name="body" v-if="hasBodySlot"></slot>
       </div>
-      <div v-if="hasFooterSlot">
+      <div class="card__footer" v-if="hasFooterSlot">
         <slot name="footer"></slot>
       </div>
   </div>
@@ -42,7 +42,7 @@ export default class Card extends Vue {
     padding: 16px;
 
     &__header {
-        text-align: left;
+      text-align: left;
     }
 
     &__footer {
