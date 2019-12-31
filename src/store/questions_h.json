@@ -4,32 +4,32 @@
       "answers": [
          {
             "type": 1,
-            "text": "Te quedas callada y no haces ni dices nada, total el viaje dura solo 20 minutos."
-         },
-         {
-            "type": 2,
-            "text": "Le empujas tú también a él y si no hace caso gritas en voz alta, “¡Qué maleducada es la gente!” para que se dé por aludido."
+            "text": "Te quedas callado y no haces ni dices nada, total el viaje dura solo 20 minutos."
          },
          {
             "type": 3,
+            "text": "Le empujas tú también a él y si no hace caso gritas en voz alta, “¡Qué maleducada es la gente!” para que se dé por aludido."
+         },
+         {
+            "type": 2,
             "text": "Le dices “perdona, me estás empujando, si no te importe te pediría que te apartases un poco”."
          }
       ]
    },
    {
-      "text": "Has quedado con un amigo pero llevas más de media hora esperando y no llega. La has llamado y mandado mensajes pero no da señales de vida. Cuando tu amiga aparece…",
+      "text": "Has quedado con un amigo pero llevas más de media hora esperando y no llega. Le has llamado y mandado mensajes pero no da señales de vida. Cuando tu amigo aparece…",
       "answers": [
          {
             "type": 1,
-            "text": "Repuesta 1"
+            "text": "Te quedas callado y haces como que no ha pasado nada. Si tu amigo te saca el tema dirás que no ha pasado nada, no merece la pena discutir, te has disgustado pero ya se te pasará"
          },
          {
             "type": 2,
-            "text": "Resputa 2"
+            "text": "Esperas a que esté a tu altura y le dices que te has sentido un poco incómodo esperando, que si no le importa la próxima vez que vaya a llegar tarde prefieres que te avise."
          },
          {
             "type": 3,
-            "text": "Respusta 3"
+            "text": "Te enfadas con él y te pasas toda la tarde diciéndole que ya no os da tiempo a hacer ningún plan porque ha llegado tarde."
          }
       ]
    },
@@ -37,11 +37,11 @@
       "text": "Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
       "answers": [
          {
-            "type": 1,
+            "type": 2,
             "text": "Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
          },
          {
-            "type": 2,
+            "type": 1,
             "text": "Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
          },
          {
@@ -51,53 +51,461 @@
       ]
    },
    {
-      "text": "Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
+      "text": "Habéis terminado de comer en casa y todo el mundo se levanta de la mesa y se va. Te quedas solo con un montón de platos para fregar.",
       "answers": [
          {
             "type": 1,
-            "text": "Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
-         },
-         {
-            "type": 2,
-            "text": "Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
+            "text": "Te resignas y los fregas, esperas que otro día se les ocurra a ellos hacerlo…"
          },
          {
             "type": 3,
-            "text": "Te enfadas muchísimo, ¡Con la de rato que llevas esperando, son unos incompetentes! Llamas al camarero a gritos y le dices que no hay derecho, que o te traen el plato correcto y rápido o vas a poner una reclamación."
+            "text": "Les dices que ya está bien, que todos los días tienes que hacer tú la comida y fregar solo, que estás harto de que no ayuden en casa y que pareces su esclavo."
+         },
+         {
+            "type": 2,
+            "text": "Les dices que, si no les importa, te gustaría tener un poco más de ayuda en casa porque no te sientes a gusto realizando tú todas las labores y que te gustaría que recogieseis la mesa entre todos porque cuesta menos que si lo hace una persona sola."
          }
       ]
    },
    {
-      "text": "Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
+      "text": "Tenéis que hacer un trabajo en grupo y habéis dividido las tareas. Tú terminaste tu parte hace una semana, y además te ocupó 10 hojas. Un compañero os envía su parte la noche de antes y te das cuenta de que solo ha escrito dos hojas y además hay faltas de ortografía…",
       "answers": [
          {
             "type": 1,
-            "text": "Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
+            "text": "No dices nada y arreglas tú su parte. Además, escribes alguna hoja más. La nota es para todos, prefieres que el trabajo esté bien hecho aunque lo tengas que hacer tú y total decírselo no va a servir para nada porque el chico no da para más."
          },
          {
             "type": 2,
-            "text": "Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
+            "text": "Llamas a tu compañero por teléfono, a veces por wasap se malinterpretan los mensajes. Le dices que te gustaría que aumentara la extensión en la línea que está siguiendo, que está muy bien pero lo ves escaso. Y que si le da tiempo revise el texto un poco."
          },
          {
             "type": 3,
-            "text": "Te enfadas muchísimo, ¡Con la de rato que llevas esperando, son unos incompetentes! Llamas al camarero a gritos y le dices que no hay derecho, que o te traen el plato correcto y rápido o vas a poner una reclamación."
+            "text": "Te enfadas muchísimo y le cantas las 40 por el grupo de wasap. ¿Qué se ha creído? Le dices que es un vago y que los demás no vais a trabajar por él."
          }
       ]
    },
    {
-      "text": "Estás en un restaurante, has pedido hace más de media hora y no te traen nada. Cuando por fin te traen el primer plato no es lo que habías pedido…",
+      "text": "Tu jefe te ha mandado hacer una tarea que piensas que no te corresponde. No le ves el sentido y crees que va a ser una pérdida de tiempo.",
       "answers": [
          {
-            "type": 1,
-            "text": "Levantas la mano y cuando se acerca el camarero le dices que sientes molestarlo pero que ha debido haber algún error porque el plato no es lo que habías pedido."
-         },
-         {
             "type": 2,
-            "text": "Te aguantas con el nuevo plato, total, tampoco te disgusta tanto y prefieres eso a estar esperando otra media hora."
+            "text": "Intentas hablar con él a solas. Le dices que no te sientes a gusto realizando esa tarea porque crees que es muy costosa y no llegas a comprender su utilidad."
          },
          {
             "type": 3,
-            "text": "Te enfadas muchísimo, ¡Con la de rato que llevas esperando, son unos incompetentes! Llamas al camarero a gritos y le dices que no hay derecho, que o te traen el plato correcto y rápido o vas a poner una reclamación."
+            "text": "Le dices al momento que esto es un marrón y que no la piensas hacer. Que si quiere que se la mande a otro."
+         },
+         {
+            "type": 1,
+            "text": "Te sientes mal pero no le dices nada. Es tu jefe y tienes que hacer lo que él te diga, que para eso te paga."
+         }
+      ]
+   },
+   {
+      "text": "Tu mejor amigo te dijo que el sábado se quedó en casa para estudiar. Otro amigo te cuenta que no es así, que lo vio por la calle…",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Le escribes inmediatamente un wasap diciéndole que es un mentiroso y que no quieres saber nada más de él."
+         },
+         {
+            "type": 1,
+            "text": "Lo dejas pasar, crees que no merece la pena decirle nada porque te vas a llevar mal rato y esperas que no lo vuelva a hacer."
+         },
+         {
+            "type": 2,
+            "text": "Intentas pensar qué motivos ha podido tener para mentirte. Quizás simplemente tuvo que acompañar a su padre a hacer un recado… no quieres sacar conclusiones precipitadas y prefieres preguntárselo."
+         }
+      ]
+   },
+   {
+      "text": "Has quedado con tus amigos para ir a cenar y deciden ir a un restaurante que no te gusta. No entiendes por qué tenéis que ir a ese restaurante, si solo quiere ir uno de ellos.",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Les preguntas si no prefieren ir a otro sitio, ya que a ti ese no te gusta y querrías saber qué prefiere la mayoría."
+         },
+         {
+            "type": 3,
+            "text": "Te vas a casa, para ir ahí no sales."
+         },
+         {
+            "type": 1,
+            "text": "Vas al restaurante de mala gana, intentas estar bien con tus amigos pero no te sale y estás toda la noche rallado."
+         }
+      ]
+   },
+   {
+      "text": "Un profesor te ha suspendido un examen. No te lo esperabas porque piensas que te salió genial.",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Le dices que es imposible que hayas sacado esa nota y exiges una revisión."
+         },
+         {
+            "type": 1,
+            "text": "Te resignas, es tu profesor y él sabe más que tú."
+         },
+         {
+            "type": 2,
+            "text": "Le dices que si no le importa te gustaría que miraseis juntos el examen y te explicara tus fallos porque tú pensabas que lo habías hecho bien."
+         }
+      ]
+   },
+   {
+      "text": "Tu hermano te ha cogido una cazadora sin permiso. Cuando te la devuelve está manchada de bebida que le han tirado por encima en un bar…",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Respiras una vez antes de hablar. Él no tiene la culpa de que le hayan tirado un vaso por encima, te podía haber pasado a ti lo mismo. Le dices que la próxima vez te gustaría que te pidiera permiso antes de cogerla."
+         },
+         {
+            "type": 1,
+            "text": "Te sabe malo que te la haya cogido y aún más que te la devuelva manchada, pero aún así le dices que no pasa nada. Decides lavarla y ya se te pasará el enfado…"
+         },
+         {
+            "type": 3,
+            "text": "Te pones como un loco, le dices que es el peor hermano del mundo y que ya te está comprando una nueva."
+         }
+      ]
+   },
+   {
+      "text": "Normalmente, cuando estoy con un grupo de amigos…",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Siempre tengo la razón y así lo hago notar."
+         },
+         {
+            "type": 1,
+            "text": "Trato de no participar mucho, no me gusta destacar."
+         },
+         {
+            "type": 2,
+            "text": "Intento escuchar todas las opiniones y comprender el punto de vista de los demás."
+         }
+      ]
+   },
+   {
+      "text": "Si alguien me critica, yo…",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Intento analizar la crítica y pensar si tienen razón o no."
+         },
+         {
+            "type": 3,
+            "text": "¿Quién me critica a mí? ¡Que se atrevan?"
+         },
+         {
+            "type": 1,
+            "text": "Pienso que siempre tienen razón, yo soy el que falla."
+         }
+      ]
+   },
+   {
+      "text": "Si en la oficina surge un problema…",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Acepto ideas para resolverlo y reflexiono sobre ellas."
+         },
+         {
+            "type": 3,
+            "text": "Con una amenaza lo resuelvo rápidamente."
+         },
+         {
+            "type": 1,
+            "text": "Bueno, no hago mucho, los demás lo solucionarán, y si no me aguanto."
+         }
+      ]
+   },
+   {
+      "text": "Pienso de mí mismo que…",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Psss. Fallo en muchas cosas, soy un desastre."
+         },
+         {
+            "type": 2,
+            "text": "Mis habilidades para relacionarme con los demás son de notable alto. Me veo bien."
+         },
+         {
+            "type": 3,
+            "text": "Me pongo un 10. Soy fenomenal, no fallo en nada. Me veo a mí mismo superior."
+         }
+      ]
+   },
+   {
+      "text": "¿Cómo funciona tu cabeza?",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Me defiendo bien."
+         },
+         {
+            "type": 3,
+            "text": "Yo no pienso."
+         },
+         {
+            "type": 1,
+            "text": "Tengo muchos pensamientos que me bajan la moral."
+         }
+      ]
+   },
+   {
+      "text": "¿Qué tal te va con las personas de otro sexo?",
+      "answers": [
+         {
+            "type": 3,
+            "text": "No tengo ningún problema, consigo lo que quiero."
+         },
+         {
+            "type": 2,
+            "text": "No lo hago mal."
+         },
+         {
+            "type": 1,
+            "text": "Me da mucho corte, soy bastante tímido y reservado."
+         }
+      ]
+   },
+   {
+      "text": "En una conversación normal con tus amigos…",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Suelo mirar al suelo cuando hablo, me cuesta mantener la mirada a los ojos."
+         },
+         {
+            "type": 3,
+            "text": "No presto atención a mis gestos, aunque ahora que lo dices creo que tiendo a mover mucho las manos."
+         },
+         {
+            "type": 2,
+            "text": "Intento mantener la mirada con mi interlocutor y no ser excesivamente exagerado con mis movimientos."
+         }
+      ]
+   },
+   {
+      "text": "Un amigo se ha comprado una cazadora muy chula que te encanta.",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Le digo que no está mal y pienso que si tengo oportunidad me compraré una mejor."
+         },
+         {
+            "type": 1,
+            "text": "No le digo nada."
+         },
+         {
+            "type": 2,
+            "text": "Le digo bien que le queda y lo que me gusta."
+         }
+      ]
+   },
+   {
+      "text": "Cuando alguien viola mis derechos, yo…",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Me aguanto."
+         },
+         {
+            "type": 2,
+            "text": "Intento expresar mi disconformidad de una forma diplomática."
+         },
+         {
+            "type": 3,
+            "text": "Eso no lo consiento, ¡Que no se atrevan!"
+         }
+      ]
+   },
+   {
+      "text": "Tus intereses chocan con los de tu novia, amigo, etc. ¿Qué haces?",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Reconozco sus motivos, pero le explico la necesidad que tengo de llevar a cabo los míos."
+         },
+         {
+            "type": 3,
+            "text": "Enfadarme, pues él o ella también debería entenderme a mí."
+         },
+         {
+            "type": 1,
+            "text": "Cedo para que la otra persona no esté mal y no tener problemas."
+         }
+      ]
+   },
+   {
+      "text": "Le has prestado algo a tu amigo y no te lo ha devuelto.",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Me callo, ¡Qué apuro pedírselo!"
+         },
+         {
+            "type": 3,
+            "text": "Le digo que o me lo devuelve ya o la próxima vez no le voy a dejar nada."
+         },
+         {
+            "type": 2,
+            "text": "Le digo que supongo que se le habrá olvidado, pero que cuando pueda me gustaría que me lo devolviera."
+         }
+      ]
+   },
+   {
+      "text": "Estás esperando en una fila y alguien se ha colado:",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Digo en alto que qué cara tiene, que se me ha colado."
+         },
+         {
+            "type": 1,
+            "text": "Me aguanto, total por uno no pasa nada…"
+         },
+         {
+            "type": 2,
+            "text": "Le digo que supongo que no se habrá dado cuenta de que yo estaba antes."
+         }
+      ]
+   },
+   {
+      "text": "Un amigo te pide un favor que no le quieres hacer:",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Le digo que lo siento y que, aunque entiendo sus motivos, no puedo hacerlo."
+         },
+         {
+            "type": 1,
+            "text": "No le digo nada y le doy largas."
+         },
+         {
+            "type": 3,
+            "text": "Le digo que no pienso hacerlo. ¡Que se busque a otro tonto!"
+         }
+      ]
+   },
+   {
+      "text": "Cada vez que tengo que llevar la contraria a alguien…",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Lo hago, y si le molesta lo que digo lo siento mucho."
+         },
+         {
+            "type": 1,
+            "text": "Lo paso fatal, me entra mucha ansiedad."
+         },
+         {
+            "type": 2,
+            "text": "Lo hago con respeto, explicando lo que pienso pero sin herirle."
+         }
+      ]
+   },
+   {
+      "text": "Cuando me niego a hacer lo que otros me han pedido…",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Me siento francamente mal, por eso me niego pocas veces."
+         },
+         {
+            "type": 3,
+            "text": "Me quedo tan tranquilo y si les molesta que lo hubieran pensado antes."
+         },
+         {
+            "type": 2,
+            "text": "Lo siento por ellos pero tienen que entender que también tengo derecho a decir que no."
+         }
+      ]
+   },
+   {
+      "text": "¿Qué expresiones sueles utilizar para decir tu opinión?",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Desde mi punto de vista, yo pienso que, creo, para mí…"
+         },
+         {
+            "type": 1,
+            "text": "Bueno…, no sé pero…, tal vez…, si fuera posible…"
+         },
+         {
+            "type": 3,
+            "text": "Las cosas son así, hay que…, tienes que, no voy a tolerar."
+         }
+      ]
+   },
+   {
+      "text": "A la hora de expresar tu opinión, ¿Cómo son tus gestos?",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Flojos, casi sin expresión, voz baja y me cuesta mirar a mi interlocutor."
+         },
+         {
+            "type": 2,
+            "text": "Suave pero firmes; voz tranquila y gesto relajado."
+         },
+         {
+            "type": 3,
+            "text": "Bruscos pero firmes; voz elevada y gesto tenso, como enfadado."
+         }
+      ]
+   },
+   {
+      "text": "Cuando tienes que hacer una exposición oral en clase:",
+      "answers": [
+         {
+            "type": 3,
+            "text": "No me apura, yo lo hago mejor que los demás, de hecho creo que lo hacen fatal."
+         },
+         {
+            "type": 1,
+            "text": "Me tiembla la voz y sudo; paso un mal rato."
+         },
+         {
+            "type": 2,
+            "text": "Me lo tomo como un reto, ¡Si lo hago bien me sentiré tan realizado! Y además me sirve para aprender y mejorar."
+         }
+      ]
+   },
+   {
+      "text": "Tu mejor amigo últimamente se muestra serio y distante.",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Das tiempo, ya se le pasará."
+         },
+         {
+            "type": 3,
+            "text": "Te muestras tú también serio, a ver si se cree que voy a ir detrás de él."
+         },
+         {
+            "type": 2,
+            "text": "Le comentas que lo notas raro y que si le pasa algo."
+         }
+      ]
+   },
+   {
+      "text": "Cuando vas a una entrevista de trabajo…",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Vas con la cabeza bien alta, no tienes dudas de que eres el mejor y te van a coger."
+         },
+         {
+            "type": 2,
+            "text": "Intentas ser diplomático y empatizar con tus entrevistadores."
+         },
+         {
+            "type": 1,
+            "text": "Hablas lo justo y estás deseando que se acabe pronto."
          }
       ]
    }

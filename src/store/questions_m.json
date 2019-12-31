@@ -338,5 +338,175 @@
             "text": "Cedo para que la otra persona no esté mal y no tener problemas."
          }
       ]
+   },
+   {
+      "text": "Le has prestado algo a tu amiga y no te lo ha devuelto.",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Me callo, ¡Qué apuro pedírselo!"
+         },
+         {
+            "type": 3,
+            "text": "Le digo que o me lo devuelve ya o la próxima vez no le voy a dejar nada."
+         },
+         {
+            "type": 2,
+            "text": "Le digo que supongo que se le habrá olvidado, pero que cuando pueda me gustaría que me lo devolviera."
+         }
+      ]
+   },
+   {
+      "text": "Estás esperando en una fila y alguien se ha colado:",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Digo en alto que qué cara tiene, que se me ha colado."
+         },
+         {
+            "type": 1,
+            "text": "Me aguanto, total por uno no pasa nada…"
+         },
+         {
+            "type": 2,
+            "text": "Le digo que supongo que no se habrá dado cuenta de que yo estaba antes."
+         }
+      ]
+   },
+   {
+      "text": "Una amiga te pide un favor que no le quieres hacer:",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Le digo que lo siento y que, aunque entiendo sus motivos, no puedo hacerlo."
+         },
+         {
+            "type": 1,
+            "text": "No le digo nada y le doy largas."
+         },
+         {
+            "type": 3,
+            "text": "Le digo que no pienso hacerlo. ¡Que se busque a otra tonta!"
+         }
+      ]
+   },
+   {
+      "text": "Cada vez que tengo que llevar la contraria a alguien…",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Lo hago, y si le molesta lo que digo lo siento mucho."
+         },
+         {
+            "type": 1,
+            "text": "Lo paso fatal, me entra mucha ansiedad."
+         },
+         {
+            "type": 2,
+            "text": "Lo hago con respeto, explicando lo que pienso pero sin herirla."
+         }
+      ]
+   },
+   {
+      "text": "Cuando me niego a hacer lo que otros me han pedido…",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Me siento francamente mal, por eso me niego pocas veces."
+         },
+         {
+            "type": 3,
+            "text": "Me quedo tan tranquila y si les molesta que lo hubieran pensado antes."
+         },
+         {
+            "type": 2,
+            "text": "Lo siento por ellos pero tienen que entender que también tengo derecho a decir que no."
+         }
+      ]
+   },
+   {
+      "text": "¿Qué expresiones sueles utilizar para decir tu opinión?",
+      "answers": [
+         {
+            "type": 2,
+            "text": "Desde mi punto de vista, yo pienso que, creo, para mí…"
+         },
+         {
+            "type": 1,
+            "text": "Bueno…, no sé pero…, tal vez…, si fuera posible…"
+         },
+         {
+            "type": 3,
+            "text": "Las cosas son así, hay que…, tienes que, no voy a tolerar."
+         }
+      ]
+   },
+   {
+      "text": "A la hora de expresar tu opinión, ¿Cómo son tus gestos?",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Flojos, casi sin expresión, voz baja y me cuesta mirar a mi interlocutor."
+         },
+         {
+            "type": 2,
+            "text": "Suave pero firmes; voz tranquila y gesto relajado."
+         },
+         {
+            "type": 3,
+            "text": "Bruscos pero firmes; voz elevada y gesto tenso, como enfadada."
+         }
+      ]
+   },
+   {
+      "text": "Cuando tienes que hacer una exposición oral en clase:",
+      "answers": [
+         {
+            "type": 3,
+            "text": "No me apura, yo lo hago mejor que los demás, de hecho creo que lo hacen fatal."
+         },
+         {
+            "type": 1,
+            "text": "Me tiembla la voz y sudo; paso un mal rato."
+         },
+         {
+            "type": 2,
+            "text": "Me lo tomo como un reto, ¡Si lo hago bien me sentiré tan realizada! Y además me sirve para aprender y mejorar."
+         }
+      ]
+   },
+   {
+      "text": "Tu mejor amiga últimamente se muestra seria y distante.",
+      "answers": [
+         {
+            "type": 1,
+            "text": "Das tiempo, ya se le pasará."
+         },
+         {
+            "type": 3,
+            "text": "Te muestras tú también seria, a ver si se cree que voy a ir detrás de ella."
+         },
+         {
+            "type": 2,
+            "text": "Le comentas que la notas rara y que si le pasa algo."
+         }
+      ]
+   },
+   {
+      "text": "Cuando vas a una entrevista de trabajo…",
+      "answers": [
+         {
+            "type": 3,
+            "text": "Vas con la cabeza bien alta, no tienes dudas de que eres la mejor y te van a coger."
+         },
+         {
+            "type": 2,
+            "text": "Intentas ser diplomática y empatizar con tus entrevistadores."
+         },
+         {
+            "type": 1,
+            "text": "Hablas lo justo y estás deseando que se acabe pronto."
+         }
+      ]
    }
 ]

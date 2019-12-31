@@ -6,6 +6,7 @@
       </div>
       <div slot="body">
         <p>Alicia Marin Solano</p>
+        <p>Asignatura: Aprendizaje y desarrollo de la personalidad</p>
       </div>
       <div slot="footer">
         <Button label="Volver" @click.native="goBack"/>
