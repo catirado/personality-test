@@ -5,8 +5,8 @@
               a que no te acepten, o el temor al conflicto, pueden justificar esta actitud, que a 
               corto plazo te puede resultar útil, pero que a la larga puede traerte serios problemas 
               por no establecer tus propios límites. Ten cuidado con tu autoestima.</p>
-            <p>“ Las personas inhibidas o pasivas a menudo dejan que violen sus derechos, tienen una 
-              baja autoestima, piden oportunidades y dejan que los demás decidan por ellas. Además, 
+            <p>“Las personas inhibidas o pasivas a menudo dejan que violen sus derechos, tienen una 
+              baja autoestima, pierden oportunidades y dejan que los demás decidan por ellas. Además, 
               su postura corporal no es la correcta, y se caracterizan por tener el cuerpo cerrado y 
               hundido, por realizar movimientos forzados, rígidos e inquietos y por la ausencia de 
               contacto visual”.</p>

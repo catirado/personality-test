@@ -1,6 +1,6 @@
 [
    {
-      "text": "Estás montada en el metro, entra una persona y te empuja fuertemente, quedándote atrapada entre esa persona y la pared. Te está empujando muy fuerte, y no entiendes por qué porque tú piensas que tiene sitio más adelante.",
+      "text": "Estás montada en el metro, entra una persona y te empuja fuertemente, quedándote atrapada entre esa persona y la pared. Te está empujando muy fuerte, y no entiendes por qué, porque tú piensas que tiene sitio más adelante.",
       "answers": [
          {
             "type": 1,
@@ -12,7 +12,7 @@
          },
          {
             "type": 2,
-            "text": "Le dices “perdona, me estás empujando, si no te importe te pediría que te apartases un poco”."
+            "text": "Le dices “perdona, me estás empujando, si no te importa te pediría que te apartases un poco”."
          }
       ]
    },
@@ -199,7 +199,7 @@
          },
          {
             "type": 1,
-            "text": "Pienso que siempre tienen razón, yo soy el que falla."
+            "text": "Pienso que siempre tienen razón, yo soy la que falla."
          }
       ]
    },
@@ -395,7 +395,7 @@
       "answers": [
          {
             "type": 3,
-            "text": "Lo hago, y si le molesta lo que digo lo siento mucho."
+            "text": "Lo hago, y si le molesta lo que digo, lo siento mucho."
          },
          {
             "type": 1,

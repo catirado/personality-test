@@ -16,9 +16,6 @@ export default class Answer extends Vue {
 <style lang="scss" scoped>
 .answer {
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 8px;
   text-align: left;
   border: none;

@@ -15,10 +15,10 @@
             no cuando sea necesario y aceptar las críticas de los otros sin que 
             por ello se deteriore tu autoestima. Y, lo más importante, cuando 
             tengas razón, al expresar tus opiniones respetando el punto de vista 
-            de los demás te resultará más fácil hacer valer tus derechos.</p>
+            de los demás, te resultará más fácil hacer valer tus derechos.</p>
         <p>Códigos para mostrar una comunicación asertiva:</p>
         <ul>
-         <li>Utilizar un tono de voz firma y directo:</li>
+         <li>Utilizar un tono de voz firme y directo:</li>
           <ul>
             <li>“Deseo”, “no puedo…”</li>
             <li>“Opino que…”</li>
