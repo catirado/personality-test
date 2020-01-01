@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 import Home from '../views/Home.vue';
 import Gender from '../views/Gender.vue';
+import Instructions from '../views/Instructions.vue';
 import Results from '../views/Results.vue';
 import Report from '../views/Report.vue';
 import Credits from '../views/Credits.vue';
@@ -13,6 +14,7 @@ export enum Routes {
   Home = 'home',
   Credits = 'credits',
   Gender = 'gender',
+  Instructions = 'instructions',
   Question = 'question',
   Results = 'results',
   Report = 'report',
@@ -21,6 +23,7 @@ export enum Routes {
 const routes = [
   route('/', Routes.Home, Home),
   route('/gender', Routes.Gender, Gender),
+  route('/instructions', Routes.Instructions, Instructions, undefined, undefined, true),
   route('/questions/:question', Routes.Question, Question, undefined, undefined, true),
   route('/results', Routes.Results, Results, undefined, undefined, true),
   route('/report', Routes.Report, Report, undefined, undefined, true),

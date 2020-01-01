@@ -1,11 +1,11 @@
 <template>
   <section class="gender">
     <div class="gender__selection">
-      <div class="gender__selection__button" @click="goToQuestions('M')">
+      <div class="gender__selection__button" @click="goToInstructions('M')">
         <font-awesome-icon icon="female" />
         <span>Mujer</span>
       </div>
-      <div class="gender__selection__button" @click="goToQuestions('H')">
+      <div class="gender__selection__button" @click="goToInstructions('H')">
         <font-awesome-icon icon="male" />
         <span>Hombre</span>
       </div>
@@ -25,10 +25,10 @@ import router, { Routes } from '@/router';
   },
 })
 export default class Gender extends Vue {
-  public goToQuestions(gender: string): void {
+  public goToInstructions(gender: string): void {
    this.$store.dispatch('selectGender', gender)
       .then(() => {
-        router.push({ name: Routes.Question, params: {question: '1'} });
+        router.push({ name: Routes.Instructions });
       });
   }
 }
