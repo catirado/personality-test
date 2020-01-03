@@ -35,10 +35,10 @@ export default class Card extends Vue {
 <style lang="scss" scoped>
 .card {
     max-width: 100%;
-    background-color: var(--white);
-    border-radius: var(--radius-8);
+    background-color: #ffffff;
+    border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: var(--shadow);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .1);
     padding: 16px;
 
     &__header {
